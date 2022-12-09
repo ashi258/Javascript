@@ -1,5 +1,5 @@
 //ARRAY TUTORIAL
-
+//let arr = [1,2,3];
 //let
 // let arr = [12,13,14,15];
 // console.log(arr[2ṇ]);
