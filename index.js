@@ -292,15 +292,60 @@
 
 //Event Listeners::
 
-const heading = document.getElementById("heading");
-const btn = document.getElementById("myBtn");
-const box1 = document.getElementById("box1");
+// const heading = document.getElementById("heading");
+// const btn = document.getElementById("myBtn");
+// const box1 = document.getElementById("box1");
 
-btn.addEventListener("click", ()=>{
-    box1.classList.add("classForDiv");
-});
+// btn.addEventListener("click", ()=>{
+//     box1.classList.add("classForDiv");
+// });
 
-box1.addEventListener("dblclick", ()=>{
-    document.body.style.backgroundColor = "rgb(50,50,50)";
-});
+// box1.addEventListener("dblclick", ()=>{
+//     document.body.style.backgroundColor = "rgb(50,50,50)";
+// });
 
+//MATH
+// console.log(Math.round(4.2));//4
+//console.log(Math.floor(4.2));    //4
+//console.log(Math.ceil(4.2));   //output 5 aayega
+//console.log(Math.trunc(8.5)); //output decimal k baad wala value skip krega
+
+// const func1 = (a,b)=>{
+//     return a-b;//or///return math.abs(a-b);
+// }
+// console.log(func1(2,5));
+//output -3 aayega lekin math.abs use krenge to
+//output 3 aayega.
+
+ //trigonometry
+ //first chane degree in radian
+ //let say (90*Math.PI)/100; then calculate in javascript;
+//  const angleInDegree=(90*Math.PI) / 100;
+
+//  const a = Math.cos(angleInDegree)
+//  console.log(a);
+
+// const a = Math.max(76,43,55,87,45);
+// console.log(a);//similar min is find
+
+//creating date 
+// const a = new Date();
+// console.log(a);//ye browser ka time lega;
+
+
+// const input = document.getElementById("myInput");
+// const btn = document.getElementById("myBtn");
+// const btnClick = () => {
+//     alert("clicked");
+// };
+// btn.addEventListener("click", btnClick);
+
+//session storage process....
+// const input = document.getElementById("myInput");
+// const btn = document.getElementById("myBtn");
+
+// const btnClick = () => {
+//     sessionStorage.setItem("key1", input.value);
+// };
+
+// btn.addEventListener("click", btnClick);
